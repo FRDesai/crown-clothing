@@ -4,9 +4,9 @@ import { ReactComponent as CrownLogo } from "../../assets/images/crown.svg";
 import "./Navigation.styles.scss";
 import { UserContext } from "../../context/user.context";
 import { signOutUser } from "../../utils/Firebase/firebase.utils";
-import CartIcon from "../cart-icon/cartIcon.component";
-import CartDropdown from "../cart-dropdown/CartDropdown.components";
+import CartDropdown from "../CartDropdown/CartDropdown.components";
 import { CartContext } from "../../context/cart.context";
+import CartIcon from "../CartIcon/CartIcon.component";
 
 const Navigation = () => {
   const { currentUser } = useContext(UserContext);
